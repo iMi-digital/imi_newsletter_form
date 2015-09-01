@@ -1,6 +1,6 @@
 {
     "name": "imi/imi_newsletter_form",
-    "description": "Subscribe to the newsletter using standard forms",
+    "description": "Subscribe to the newsletter using standard forms (Contao Module)",
     "keywords": [
         "contao",
 	"newsletter"
