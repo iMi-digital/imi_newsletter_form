@@ -1,0 +1,3 @@
+<?php if ($this->message): ?>
+    <p class="<?php echo $this->mclass; ?>"><?php echo $this->message; ?></p>
+<?php endif; ?>

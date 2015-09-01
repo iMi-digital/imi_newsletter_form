@@ -1,0 +1,33 @@
+{
+    "name": "imi/imi_newsletter_form",
+    "description": "Subscribe to the newsletter using standard forms",
+    "keywords": [
+        "contao",
+	"newsletter"
+    ],
+    "type": "contao-module",
+    "homepage": "http://www.imi-digital.de",
+    "license": "LGPL3",
+    "authors": [
+        {
+            "name": "iMi digital GmbH - Alexander Menk",
+            "email": "a.menk@imi.de",
+            "homepage": "http://www.imi-digital.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=3.0.0",
+        "contao-community-alliance/composer-plugin": "~2.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/imi_newsletter_form"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
